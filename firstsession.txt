@@ -1,0 +1,26 @@
+The computer is composed of hardrive and softdrive
+- Hardware:something you touch(inside and outside the device)
+	-CPU: Central Processing Unit; like the brain
+	-Hard disk:used to save permanently; like a notebook  
+	-Ram: Used for things to be done temporarily; like a scratchpad
+- Software:also called programs
+	-Softwares do one specific thing and interact with each other
+	-Operating System(OS) is a software that starts the computer
+	-The OS is the software you interact to run other programs
+	-Examples of OS: Xp, OS, Linux, etc
+	-Programs are a series of stes/ actions
+Decimal System
+- what we use on a daily bases
+- this system has a base of 10
+- the numbers in this system ar 0 thru 9(10 numbers)
+Binary System
+- this system has a base of 2 not 10
+- the number has to be either 0 or 1(2 numbers)
+- each place value is a multiple of 2
+- 1(2 to the power of 0), 2(2 to the power of 1), 4(2 to the power of 2), 8(2 to the power of 3), 16(2 to the power of 4),
+  etc
+Why do we learn binary?
+- The hardware can only register 0 or 1, and it is up to the software to develop some code words. For example,
+  A is 65, a is 97, B is 66, b is 98, etc. This is called ASCII (American Standard Code Information Interchange).
+  The computer has to convert everythinhg into number. For example, HELLO (72 69 76 76 79) can be converted into 1001000
+  1000101 1001100 1001100 1001111.
