@@ -1,0 +1,50 @@
+-8 bits=1 byte(8 bits can hold 256 values which is enough for all 
+characters according to ASCII)
+-1024 bytes=1 kilo byte
+-1024*1024=1 mega byte
+-1024*1024*1024=1 giga byte
+
+-Details of out computer
+	-Memory(RAM): measured in GB
+	-Hard Disk: measured in GB(there is more GB of hard disk 
+because more ore items need to be stored permenently)
+
+-file: a group of bytes
+	-.txt=text file
+	-.png,.jpg=picture files
+	-.mp4=videos
+	-.html=HTML files
+
+-excecutable(.exe): programs you use to do some stuff
+	-notepad.exe=creating text files
+	-cmd.exe=command prompt where you type windows command
+	-chrome.exe=browser
+	-calc.exe=calculator
+
+-folder: a collection of files and can contain other folders
+	-you can creae folders usin file explorers
+
+-hierarchy of directories
+	-directories are created in parent directories which may be
+ the child of another parent directory
+	-this goes on until the root(\)
+	-this makes a tree shaped relationship with the root at the top 
+and the files which are like leaves
+
+-command prompt
+	-type cd\ to get to root
+	-md=make directory
+	-cd=change directory
+
+-absolute path:a way to get from the root to a specific folder
+	-example= if you have to get to root from 0709 you need to
+go to class to math to algebra and finally to 0709 so you can do this 
+c:\class\math\algebra\0709 
+
+-eclipse:a platform to make programs; called IDE(Interactive Development 
+Environment)
+
+Note: We learned how to make a simple program called HelloWorld on Eclipse 
+to give us a glimpse into programming
+
+
