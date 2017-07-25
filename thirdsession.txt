@@ -1,0 +1,51 @@
+-GIT: A control system that will be used as a center place to add/view notes/
+projects. One major feature in any control feature or in this case git. In the
+multiple people could be working on one document, combine the parts they were 
+working, view any changes that may have happened, etc.
+
+-Why use git?
+	-used for a lot of real companies, hense useful to learn now
+	-used to take notes, exercises, and quizes
+	-used as a refresher to get up to speed quickly
+	-now-a-day companies look at the github acount as part of the hiring 
+process
+
+-Getting the repository to you local machine
+	-go to github.com and repository(collection of files)
+	-https://github.com/(account name)/(repository name).git
+
+-Getting the contents of the repository in your machine
+	-cd \(change directory to root)
+	-md gitlearn(make directory gitlearn)
+	-cd gitlearn(change directory gitlearn)
+	-git clone aboveurl
+	
+-Adding files
+	-type you session notes in notepad
+	-got to command prompt and type in git status to see any changes you
+have done in red
+	-type git add * to add files to LOCAL git
+	-type git status again to see all the files in green
+	-type git status -m "some comment" to put in LOCAL git
+	-type git origin master to push files into git account
+	
+-Modifying files
+	-open command prompt
+	-cd \
+	-cd gitlearn\basicjava
+	-notepad session3.txt
+	-modify new notes
+	-File- Save
+	-git status
+	-git add*
+	-git commit -m"comment"
+	-git push origin master
+
+-Deleting file
+	-use del command or file explorer
+	-repeat commands above
+
+-Eclipse
+	-launch eclipse
+	-File-Switch Workplace-Other
+	-crete java program and follow commands above
