@@ -1,0 +1,70 @@
+-Variables:change it's value by assighning it to another value
+	-Examples: x=2: x=3
+
+-Constants: numbers that never change(2 or 3 above)
+
+-Data Type: must specify what type of fat you need (age=12: grade=7)
+	-Integers(Int)- numbers without decimals(10, 20, 32)
+	-String- series of alphabets(Akshaya, April)
+	-Double- numbers with decimals(27.5, 48.73)
+	-Boolean- True or False
+
+-Format
+	-Datatype VariableName = value ;(int age=12)
+	-Strings are represented in double quotes("")(string street name=
+ "Akshaya")
+
+-Syntax:grammer to programming
+	-ex:;(semicolon), =(equal), "()"(paranthesis)
+
+-If Statement:change of path based on certain conditions
+	-this is represented by: if, else if, else
+	
+Program:
+ int age = 13;
+
+    if( age > 15){
+        System.out.println("you can get drivers permit");
+    }else if( age == 15){
+        System.out.println("Congratulations. today is the day where you can apply for permit.");
+    }else{
+        System.out.println("Sorry, please wait till you get 15");
+    }
+(This program will print running 10 times)
+
+- Notes of program:
+	-int age = 13---variable
+	-if( age > 15) System.out.println("you can get drivers permit")--- If 
+age is greater(>)than 15 print out statement
+	-else if(age == 15) System.out.printl(Congratulations. today is the 
+day where you can apply for permit.") --- If you are equal to 15 years old(==)
+print oy statement
+	-else --- If you don't match any of the above conditions, you are not
+ready to get your permit
+
+-Syntax for program
+	-"="means assigning value to variable
+	-"==" means comparing age to value: age==15
+	-">"greater than: age > 15
+	-"{}" set of instructions that are related (such as in the same
+condition) inside the two curly brackets
+
+-Looping:repeating
+	-Example(real life situation)...running on a trach 10 times
+	
+Loop Program
+int i;  // For counting in loops usually variable name 'i' is used 
+
+    for(i=0 ; i<10 ; i++){
+        System.out.println("running :" + (i+1));
+    }
+
+-Notes on program: Steps
+	-Step 1:i=1
+	-Step 2:i<10
+	-Step 3:System.out.println("running " + (i+1)) ( prints "running 1")
+	-Step 4:i=i+1
+	-Step 5:i<10
+	-Step 6:System.out.println("running " + (i+1)) ( prints "running 1")
+	-Repeat this until i<10 is proven false
+

@@ -1,0 +1,10 @@
+
+public class PracticeLoop {
+
+	public static void main(String[] args) {
+		
+		int x;
+		for( x=5 ; x >100; x=x+10);
+			System.out.println(x);
+	}
+}
