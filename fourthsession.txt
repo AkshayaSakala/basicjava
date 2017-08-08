@@ -68,3 +68,33 @@ int i;  // For counting in loops usually variable name 'i' is used
 	-Step 6:System.out.println("running " + (i+1)) ( prints "running 1")
 	-Repeat this until i<10 is proven false
 
+-Notes on program
+	-program states running 10 times
+	-initially 1=0 then the loop starts
+
+-Syntax for program
+  for( initialiation_onetime ; condition_which_should_return_true_or_false ; do_some_increment_which_runs_for_each_loop){
+        somestatements_which_will_execute_aslongas_theconditionis_true
+    }
+
+	-Step 1: create a starting value 
+	-Step 2: condition that is true or false: if false than do not go to 
+the next step
+	-Step 3: execute statement if condition is prove true
+	-Step 4: increase statement be some increment that runs for each loop
+	-Step 5: continue the loop until the condition is proven false
+
+-Naming variables
+	-bad examples: int x, String y, double z
+	-good examples: int age, string name, double price
+
+-Commenting:start comment with //
+	-ex://This is a progra to determine if you can get your permit
+
+-Indentation: indenting is important for readability and identifying mistakes
+
+-Fixing Syntax: Eclipse will sho a red circle and if you hover to see the error
+to fix
+
+-Matching Curly Brackets:curly brackets must come in pairs; a block is inside 
+two curly brackets

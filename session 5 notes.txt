@@ -1,0 +1,111 @@
+-Input from user
+
+import java.util.Scanner;
+
+public class Application {
+	public static void main(String[] args) {
+		System.out.print("first number:");
+		Scanner scanner = new Scanner(System.in);
+		int firstNumber = scanner.nextInt();
+		
+		System.out.print("second number:");
+		int secondNumber = scanner.nextInt();
+
+-Notes for the program
+	-variable is scanner of type Scanner
+	-nextInt()=User Imput
+
+-Steps to writing a program
+	-Step 1: understand what the program is supposed to do, and then
+visualize what the program will look like
+	-Step 2:think about how you would solve this on a notebook, and then 
+take a few examples and run them through your mind
+	-Step 3:Write Syntax for program before starting. Example: Use syntax
+to convert into the program
+ 	if(){
+
+   	}else{
+
+    	}
+
+-Another conditional program
+                int x = 5;
+		int y = 2;
+		System.out.println(x/y);
+
+		double x1 = 5;
+		double y1 = 2;
+		System.out.println(x1/y1);
+
+-Notes on the program
+	-The first program will result in 2
+	-The second program will result in 2.5
+
+-Operator %:find the remainder
+	-5 % 2 = 1
+	-6 % 2 = 0
+	-7 % 2 = 1
+	-8 % 2 = 0
+
+Reminder program:
+-Remainder program pseudo logic:using % to find weather a number is even/odd
+	-If the number %2 value is 0 then the number is even, otherwise it is
+odd
+
+Reminder program:
+ import java.util.Scanner;
+
+public class Application {
+
+	public static void main(String[] args) {
+		System.out.print("give number:");
+		Scanner scanner = new Scanner(System.in);
+		int number = scanner.nextInt();
+		
+		// number % 2 is zero it is even
+		// else it is odd
+		
+		if(number %2 == 0) {
+			System.out.println(number + " is even");
+		}else {
+			System.out.println(number + " is odd");
+		}
+
+	}
+}
+
+Loop program:
+-For loop program pseudo logic
+	-take a number given be user and multiple it by the numbers 1-10
+	-number=user imput
+	-starts from 1-10:number * counter
+
+-Loop program syntax
+    for( ;   ;  ){
+    }
+
+-Actual program logic 
+ 	-Step 1: Initialization;i=1
+	-Step 2: Condition;number <=10
+	-Step 3: Increment; i=i+1
+	-Body of the for; int answer = number * i; System.out.println(answer)
+
+Final loop program:
+import java.util.*;
+public class Application {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("table number:");
+		int number = scanner.nextInt();
+		for(int i=1; i<=10; i++) {
+			int answer = number * i;
+			System.out.println(number + " *" + " " + i + " = " + " " + answer);
+		}
+	}
+}
+
+````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+Eclipse Shortcuts: to speed up coding
+-Short keys to make programing faster
+	-Examples; Alt F,Alt C got to class(If there is an underline under some 
+words you can get to it faster by clicking the letter that is underlined and Alt
