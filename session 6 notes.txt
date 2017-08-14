@@ -1,0 +1,49 @@
+-Declaring a variable
+	-Variable names: int(integer),String,Double
+	-int age = 12;
+	-String name = "Akshaya";
+	-Double cost = 12.50;
+
+-Creating your own variable: define your own data type using basic data types
+	-you can use a single variable to describe a person(name, age, grade,
+etc.) use one variable like p.
+	-kind of like building a shape using blocks
+
+-PROCESS
+	-Make the class, that is not public static void; 
+(Program)
+    class Person{
+
+    }
+
+    class yourdatatypename{
+
+    }
+	
+(Program)
+    class Person{
+        int age;
+        int name;
+        int grade;
+        int height;
+        int weight;
+    }
+
+-Using this data type
+(Process)
+	-make another class this one is public static void
+	-print the statement about the description(System.out.println("Person Description"))
+	-define the variable (Example: data type is Person and variable is 
+person1)
+	-add to the line new indicating that I want a new value for the data
+type I created(Example: Person person1 = new Person();)
+	-add the variable and age, name grade, etc.by using a dot to seperate
+(Example:  person1 and then . (dot) and then one of the property you have 
+defined in the class)
+(Program)
+    Person person1 = new Person();
+    person1.age = 20;
+    person1.name = "sai";
+    person1.grade = 7;
+    person1.height = 5;
+    person1.weight = 100;
