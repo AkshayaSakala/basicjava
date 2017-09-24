@@ -1,0 +1,116 @@
+-Encapsulation(Part 1)
+	-putting related data fieds and methods together in an appropriate class
+For example, readbook can be in person class but not animal class
+
+-Encapsulation(Part 2)
+	-for a car to move a lot of things need to happen. It needs to put pressure
+ on the accelerator, light the gas, and move the wheels.
+
+PROGRAM
+public class Car {
+	String name;
+	int horsePower;
+	boolean isStarted = false;	// used to indicate whether is is started or not.
+
+	void putGasInChamber() {
+		System.out.println("putting gas in chamber");
+	}
+	
+	void igniteChamber() {
+		System.out.println("Igniting chamber");
+	}
+	
+	void moveWheels() {
+		System.out.println("moving wheels");
+	}
+}
+
+	public static void main(String[] args) {
+		Car c1 = new Car();
+		c1.name = "bmw";
+		c1.horsePower = 200;
+
+        // You need to do all these things just moving the car.
+		c1.putGasInChamber();
+		c1.igniteChamber();
+		c1.moveWheels();
+	}
+-Notes on the program
+	-This application is showing individual calls for the car to move
+
+PROGRAM
+public class Car {
+	String name;
+	int horsePower;
+	boolean isStarted = false;	// used to indicate whether is is started or not.
+
+	void start() {
+		putGasInChamber();
+		igniteChamber();
+		moveWheels();
+		System.out.println("now car is moving");
+	}
+
+	void stop() {
+	}
+	
+	void putGasInChamber() {
+		System.out.println("putting gas in chamber");
+	}
+	
+	void igniteChamber() {
+		System.out.println("Igniting chamber");
+	}
+	
+	void moveWheels() {
+		System.out.println("moving wheels");
+	}
+}
+
+public static void main(String[] args) {
+    Car c1 = new Car();
+    c1.name = "bmw";
+    c1.horsePower = 200;
+    c1.start();
+}
+
+-Notes on the program
+	-This is what happens in real life. This could also be done using the private 
+key word
+
+PROGRAM
+public class Car {
+	String name;
+	int horsePower;
+	boolean isStarted = false;	// used to indicate whether is is started or not.
+
+	void start() {
+		putGasInChamber();
+		igniteChamber();
+		moveWheels();
+		System.out.println("now car is moving");
+	}
+	
+	void stop() {
+	}
+	
+	// Nobody can call this method outside Car class
+	private void putGasInChamber() {
+		System.out.println("putting gas in chamber");
+	}
+	
+	// Nobody can call this method outside Car class
+	private void igniteChamber() {
+		System.out.println("Igniting chamber");
+	}
+	
+	// Nobody can call this method outside Car class
+	private void moveWheels() {
+		System.out.println("moving wheels");
+	}
+}
+
+-Notes on the program
+	-the private key word is used so that from the outside nobody can call 
+c1.putGasInChamber
+	-If you do a private method you will get a visible error 

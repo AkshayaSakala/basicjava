@@ -1,0 +1,26 @@
+
+public class Car {
+	String name;
+	int horsePower;
+	boolean started = false;
+
+	void start() {
+
+		if (started == true) {
+			System.out.println("Sorry you have already started before. You need to stop before you start again");
+		} else {
+			System.out.println("starting: " + name + " which has: " + horsePower + " horsepower");
+
+			started = true;
+		}
+
+	}
+
+	void stop() {
+		System.out.println("stopping: " + name);
+
+		started = false;
+
+	}
+
+}

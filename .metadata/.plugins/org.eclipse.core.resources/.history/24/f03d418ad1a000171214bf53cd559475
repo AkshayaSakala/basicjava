@@ -1,0 +1,20 @@
+
+public class Car {
+	String name;
+	int horsePower;
+	boolean started = false;
+
+	void start() {
+		System.out.println("starting: " + name + " which has: " + horsePower + " horsepower");
+
+		started = true;
+	}
+
+	void stop() {
+		System.out.println("stopping: " + name);
+
+		started = false;
+
+	}
+
+}

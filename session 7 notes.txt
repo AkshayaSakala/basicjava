@@ -1,0 +1,90 @@
+- Action/Methods/Function/Behavior
+	-A person will have a name, grade, age etc. But they will also have 
+behavior associated with the person
+
+-Actions in programming
+PROGRAM
+    class Person{
+        // no input
+        // no output
+        void run(){
+
+        }
+
+        // input : bookName
+        // output: none
+        void readBook(String bookName){
+
+        }
+
+        // input: none
+        // output: miles ran
+        int tellMeMilesRanToday(){
+            return 10;
+        }
+
+        // input: money
+        // output: coffee
+        String getCoffee(int money){
+            return "latte";
+        }
+    }
+-Notes:
+	-An action can have an imput and no output(Example: go put this book
+ over there), no input and an output(Example: go get me that book), no input
+ and no output(go read this book)
+
+-SYNTAX FOR PROGRAM
+void actionName(){
+
+}
+
+void actionName(inputVariables){
+
+}
+
+Datatype actionName(){
+    return variableOfReturnDataType;
+}
+
+Datatype actionName(inputVariables){
+    return variableOfReturnDataType;
+}
+
+inputVariables: comma separated variables. You know variables declaration by this time as every variable will be preceded by its daa type
+    (int x,int y)
+Datatype : When you are returning (output) from a action you specify the just data type ( not variable)
+
+variableOfReturnDataType: when there is a output from action you should have return with actual value.
+
+-CALCULATOR PROGRAM
+(making class)
+    class Calculator{
+        int add(int x, int y){
+            int z;
+            z = x+y;
+            return z;
+        }
+
+        int sub(int x, int y){
+            int z;
+            z = x-y;
+            return z;
+        }
+    }
+
+-Notes:
+	-add method, takes to integers and (x and y) and returns the data
+	-sub method takes the two integers and subtracts them
+
+APPLICATION
+    Calculator c = new Calculator(); 
+    int sum; 
+    sum = c.add(2,3);
+    System.out.println(sum);
+
+-Notes: 
+	- we call method with dot(.) operator
+	-the variable is a code block it starts with { and ends with }
+
+

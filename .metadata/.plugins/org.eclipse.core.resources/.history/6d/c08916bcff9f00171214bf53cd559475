@@ -1,0 +1,12 @@
+
+public class Car {
+	void start(){
+		System.out.println("starting th car");
+		
+	}
+    
+	void stop(){
+		System.out.println("stopping the car");
+	}
+}
+	

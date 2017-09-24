@@ -1,0 +1,16 @@
+
+public class Calculator {
+	int add(int x,int y){
+	    int z;
+	    z = x + y;
+	    return z;
+	}
+	 int multiply(int t,int l){
+		    int w;
+		    w = t * l;
+		    return w;
+	 
+     }
+}
+
+3
