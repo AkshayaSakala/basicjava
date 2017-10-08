@@ -5,22 +5,22 @@ public class Application {
 		// TODO Auto-generated method stub
 		System.out.println("Creating my own data types.");
 		
-		Person P1 = new Person();
-		P1.age = 12;
-		P1.name = "Akshaya";
-		P1.grade = 7;
+		Person akshaya = new Person();
+		akshaya.setAge(12);
+		akshaya.setName("Akshaya");
+		akshaya.setGrade(7);
 
-		Person P2 = new Person();
-		P2.age = 12;
-		P2.name = "Adhira";
-		P2.grade = 7;
+		Person adhira = new Person();
+		adhira.setAge(12);
+		adhira.setName("Adhira");
+		adhira.setGrade(7);
 
-		System.out.println(P1.name);
-		System.out.println(P2.name);
-		System.out.println(P1.age);
-		System.out.println(P2.age);
-		System.out.println(P1.grade);
-		System.out.println(P2.grade);
+		System.out.println(akshaya.getName());
+		System.out.println(adhira.getName());
+		System.out.println(akshaya.getAge());
+		System.out.println(adhira.getAge());
+		System.out.println(akshaya.getGrade());
+		System.out.println(adhira.getGrade());
 	}
 
 }

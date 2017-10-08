@@ -1,0 +1,63 @@
+PROGRAM:
+    class Person{
+        String name;
+
+        void printDetails(){
+            System.out.println("name is=" + name);
+        }
+    }
+
+    class Application{
+        public static void main(String[] args){
+            Person p1 = new Person();
+            p1.printDetails();
+        }
+    }
+
+OUTPUT
+name is=null
+
+-Notes for Program
+	-the feild had no set value so for string it will say null
+
+PROGRAM
+  class Person{
+	
+    String name;
+	
+	Person(String inputname){
+		name = inputname;
+	}
+
+        void printDetails(){
+            System.out.println("name is=" + name);
+        }
+    }
+
+    class Application{
+        public static void main(String[] args){
+            Person p1 = new Person("sai");
+            p1.printDetails();
+        }
+    }  
+
+-Notes on program
+	-the previous program says that p1 is person named"sai"
+	-this program does previous in one step
+	-this program enforces that you cannot create a person without a name
+	-in this program the method person in the class person takes on imput
+of type stringand name imput which is assighned name
+
+PROGRAM
+    Person p1 = new Person("sai");
+
+SYNTAX
+ Person(String  inputname){
+
+-Notes on program: CHARACTERISTICS
+	-has the same name as class
+	-doesn't return anything
+	-The parameters are just like any other methods where you can 
+have 0 or multiple parameters.
+	-This is method is called when you are creating the object and 
+hence it is called Constructor
