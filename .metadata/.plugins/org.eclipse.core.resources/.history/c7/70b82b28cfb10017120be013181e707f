@@ -1,0 +1,14 @@
+
+public class Person {
+	String name;
+	int age;
+
+	Person(int years, String call) {
+		age = years;
+		name = call;
+	}
+
+	boolean canDrive() {
+		return false;
+	}
+}

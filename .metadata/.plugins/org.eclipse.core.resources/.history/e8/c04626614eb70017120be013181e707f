@@ -1,0 +1,15 @@
+
+public class Application {
+	public static void main(String[] args) {
+		
+		System.out.println("Today is October 22!!!");
+
+		int tableNumber = 11;
+		
+		for(int x = 1;x <= 10; x= x+1){
+		int result = tableNumber * x;
+		System.out.println(tableNumber + 1w"+" x + " = " + result);
+		
+		}
+	}
+}

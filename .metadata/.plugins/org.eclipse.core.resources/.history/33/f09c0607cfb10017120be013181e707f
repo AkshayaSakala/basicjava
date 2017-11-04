@@ -1,0 +1,12 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Today is October 15!");
+	}
+	Person akshaya= new Person(12,"Akshaya");
+	
+	Person anna= new Person(10,"Anna");
+	boolean canDrive= anna.canDrive();
+}

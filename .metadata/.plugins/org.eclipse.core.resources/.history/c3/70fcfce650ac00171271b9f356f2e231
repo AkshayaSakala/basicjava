@@ -1,0 +1,5 @@
+//classes are always nouns!!
+public class Student {
+	String name;
+
+}
