@@ -1,0 +1,25 @@
+
+public class Student {
+String name;
+
+	Student(String imputName){
+		imputName = name;	
+	}
+	Student(){
+		
+	}
+
+	int play(int gameType){
+		
+		if(gameType == 1){
+			System.out.println("Playing Basketball...");
+		
+		}else if(gameType == 2){
+			System.out.println("Playing Football...");
+		
+		}else{
+			System.out.println("Playing...");
+		
+		}return 10;
+	}
+}

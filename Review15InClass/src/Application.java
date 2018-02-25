@@ -6,8 +6,8 @@ public class Application {
 
 		Student Akshaya = new Student("Akshaya");
 		Akshaya.readBook("Ash and Brimble");
-		Akshaya.checkOut("Ash and Brimble");
-		Student Srinidhi = new Student("Srinidhi", 1200000000);
+
+		Car Honda = new Car("Honda");
 
 	}
 }

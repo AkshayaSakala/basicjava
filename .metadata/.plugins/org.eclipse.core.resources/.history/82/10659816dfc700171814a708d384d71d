@@ -1,0 +1,9 @@
+
+public class Math2 {
+	
+	int addSpecial(int x){
+		return 0;
+		
+	}
+
+}

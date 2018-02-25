@@ -14,22 +14,22 @@ public class Student {
 		System.out.println("The Student's name is " + name + "! The Student's age is " + age + " !");
 	}
 
-	void readBook(String bookName){
+	void readBook(String bookName) {
 		checkOut(bookName);
 		readingBook(bookName);
 		returnBook(bookName);
-		
+
 	}
 
-	void checkOut(String bookName) {
+	private void checkOut(String bookName) {
 		System.out.println("Checkout book " + bookName);
 	}
 
-	void readingBook(String bookName) {
+	private void readingBook(String bookName) {
 		System.out.println("Read book " + bookName);
 	}
 
-	void returnBook(String bookName) {
+	private void returnBook(String bookName) {
 		System.out.println("Return book " + bookName);
 	}
 

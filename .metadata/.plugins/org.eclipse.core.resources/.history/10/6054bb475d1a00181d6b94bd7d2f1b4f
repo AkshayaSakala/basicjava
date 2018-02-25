@@ -1,0 +1,11 @@
+
+public class Application {
+	public static void main(String[] args) {
+		System.out.println("This is my third test!");
+
+	Car c = new Car();
+	c.start();
+	c.getNumberOfWheels();
+	c.changeOil("A Oil");
+	}
+}

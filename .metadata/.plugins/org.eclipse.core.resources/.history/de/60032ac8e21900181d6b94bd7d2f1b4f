@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+
+/**
+ * @author Akshaya
+ *
+ */
+public class TICalculator implements Calculator {
+
+	/* (non-Javadoc)
+	 * @see Calculator#add(float, float)
+	 */
+	@Override
+	public float add(float f1, float f2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/* (non-Javadoc)
+	 * @see Calculator#multiply(float, float)
+	 */
+	@Override
+	public float multiply(float f1, float f2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/* (non-Javadoc)
+	 * @see Calculator#divide(float, float)
+	 */
+	@Override
+	public float divide(float f1, float f2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/* (non-Javadoc)
+	 * @see Calculator#subtract(float, float)
+	 */
+	@Override
+	public float subtract(float f1, float f2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

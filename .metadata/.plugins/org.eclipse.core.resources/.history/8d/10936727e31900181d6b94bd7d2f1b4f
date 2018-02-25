@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+
+/**
+ * @author Akshaya
+ *
+ */
+public class TICalculator implements Calculator {
+}

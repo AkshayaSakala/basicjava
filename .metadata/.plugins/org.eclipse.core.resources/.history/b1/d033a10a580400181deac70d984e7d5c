@@ -1,0 +1,11 @@
+
+public class Student {
+String name;
+
+	Student(String imputName){
+		imputName = name;	
+	}
+	Student(){
+		
+	}
+}

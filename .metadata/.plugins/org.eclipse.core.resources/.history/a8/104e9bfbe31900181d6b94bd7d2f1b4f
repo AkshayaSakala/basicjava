@@ -1,0 +1,4 @@
+public class Application {
+	SonyCalculator calc = new SonyCalculator();
+	calc.add(1F,2F);
+}

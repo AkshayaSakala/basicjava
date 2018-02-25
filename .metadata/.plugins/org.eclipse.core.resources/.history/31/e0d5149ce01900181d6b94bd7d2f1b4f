@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+
+/**
+ * @author Akshaya
+ *
+ */
+public interface Calculator {
+
+}

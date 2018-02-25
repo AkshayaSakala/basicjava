@@ -1,0 +1,17 @@
+package basicjava;
+
+import java.awt.*;
+import javax.swing.*;
+
+public class ResultPanel extends JPanel {
+
+	ResultPanel(){
+		JPanel j = new JPanel();
+		
+		JTextField t = new JTextField();
+		t.setText("kk");
+		add(t);
+		
+			
+	}
+}

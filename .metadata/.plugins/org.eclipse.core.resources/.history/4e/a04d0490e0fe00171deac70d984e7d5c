@@ -1,0 +1,15 @@
+package basicjava;
+
+import java.awt.*;
+import javax.swing.*;
+
+public class OperationPanel extends JPanel {
+
+	OperationPanel() {
+		JButton b = new JButton();
+		b.setSize(100, 100);
+		// setting the size of the button
+		b.setBackground(Color.WHITE);
+		b.setText("+");
+	}
+}

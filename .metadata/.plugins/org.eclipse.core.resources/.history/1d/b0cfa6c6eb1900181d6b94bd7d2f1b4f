@@ -1,0 +1,46 @@
+package basicjava;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+
+public class NumberPanel extends JPanel implements ActionListener{
+
+	NumberPanel() {
+
+		// setting size of panel
+		setSize(400, 600);
+		// the background color is CYAN
+		setBackground(Color.CYAN);
+
+		// creating 10 buttons
+		for (int x = 0; x < 10; x = x + 1) {
+			JButton b = new JButton();
+			// set font on button
+			Font font = new Font("Arial",Font.BOLD, 67);
+			b.setFont(font);
+			b.setSize(100, 100);
+			// setting the size of the button
+			b.setBackground(Color.WHITE);
+			// set the background color to white(on the button)
+			String num;
+			// creating String num
+			num = Integer.toString(x);
+			// converting integer x to String num
+			b.setText(num);
+			// each button has the number that num is set to at the time
+			b.addActionListener(this);
+			add(b);
+			// adding the buttons to the panel
+
+		}
+		GridLayout g = new GridLayout(4, 3);
+		// creating grid layout; 4 x 3
+		setLayout(g);
+		// setting layout of the buttons
+	}
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		JOptionPane.showMessageDialog(null, "This is my imput");
+	}
+}

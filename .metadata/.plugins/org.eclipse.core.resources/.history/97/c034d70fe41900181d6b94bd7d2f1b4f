@@ -1,0 +1,7 @@
+public class Application {
+	
+	public static void main(String[] args) {
+		SonyCalculator calculator = new SonyCalculator();
+		System.out.println(calculator.add(1, 2));
+	}
+}

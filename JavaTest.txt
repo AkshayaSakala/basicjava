@@ -1,0 +1,34 @@
+﻿1)RAM = notepad
+  CPU = book
+
+2)bit; 8 bits is a byte
+
+3)ASCII is a system of numbers that are used to code for different symbols(letters, numbers, punctuation, etc.; A = 63
+
+4)We learn Java to communicate with the computer
+
+5)grammer
+
+6);
+  {}
+
+7)public
+  static
+
+8)A data type is the type of group; String(text) int(number)
+
+9)String 
+  double
+
+10)a class is a group of objects
+
+11)an object is a thing
+
+12)main 
+
+13)a method is a direction
+
+14)shared
+
+15)inheritence is sharing through many classes
+      

@@ -1,0 +1,21 @@
+package basicjava;
+
+import java.awt.*;
+import javax.swing.*;
+
+public class ResultPanel extends JPanel {
+
+	JTextField textfield;
+
+	ResultPanel(){
+	
+		JTextField t = new JTextField();
+		add(t);
+		
+	public void setNumber(String number){
+		this.textfield.setText(number);
+		}
+		
+			
+	}
+}

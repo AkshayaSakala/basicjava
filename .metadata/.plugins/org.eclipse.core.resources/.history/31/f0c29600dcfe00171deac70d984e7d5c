@@ -1,0 +1,44 @@
+package basicjava;
+
+import java.awt.*;
+import javax.swing.*;
+
+public class Application {
+	public static void main(String[] args) {
+
+		JFrame f = new JFrame("Calculator");
+		f.setSize(1000, 1000);
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		// Creating a # panel
+		JPanel p = new JPanel();
+		p.setSize(400, 600);
+		p.setBackground(Color.CYAN);
+
+		f.add(p);
+
+		// creating 10 buttons
+		for (int x = 0; x < 10; x = x + 1) {
+			JButton b = new JButton();
+			b.setSize(100, 100);
+			//setting the size of the button
+			b.setBackground(Color.WHITE);
+			//set the background color to white(on the button)
+			String num;
+			//creating String num
+			num = Integer.toString(x);
+			//converting integer x to String num
+			b.setText(num);
+			//each button has the number that num is set to at the time
+			
+			p.add(b);
+			//adding the buttons to the panel
+		}
+		GridLayout g = new GridLayout(4,3);
+		//creating grid layout; 4 x 3    
+		p.setLayout(g);
+		//setting layout of the buttons
+		f.setVisible(true);
+
+	}
+}

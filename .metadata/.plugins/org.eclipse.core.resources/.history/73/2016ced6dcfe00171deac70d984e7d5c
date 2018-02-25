@@ -1,0 +1,40 @@
+package basicjava;
+
+import java.awt.*;
+import javax.swing.*;
+
+public class Application {
+	public static void main(String[] args) {
+
+		//create new frame
+		JFrame f = new JFrame("Calculator");
+		//set size of frame
+		f.setSize(1000, 1000);
+		//setting the close button so that the frame will be closed when it is clicked
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
+		//adding panel to frame
+		f.add(p);
+
+		// creating 10 buttons
+		for (int x = 0; x < 10; x = x + 1) {
+			JButton b = new JButton();
+			b.setSize(100, 100);
+			//setting the size of the button
+			b.setBackground(Color.WHITE);
+			//set the background color to white(on the button)
+			String num;
+			//creating String num
+			num = Integer.toString(x);
+			//converting integer x to String num
+			b.setText(num);
+			//each button has the number that num is set to at the time
+			
+			p.add(b);
+			//adding the buttons to the panel
+		}
+		
+
+	}
+}

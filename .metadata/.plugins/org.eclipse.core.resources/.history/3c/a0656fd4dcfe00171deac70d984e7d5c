@@ -1,0 +1,22 @@
+package basicjava;
+
+import java.awt.*;
+import javax.swing.*;
+
+public class NumberPanel extends JPanel{
+
+	NumberPanel(){
+		// Creating a # panel
+		JPanel p = new JPanel();
+		//setting size of panel
+		p.setSize(400, 600);
+		//the background color is CYAN
+		p.setBackground(Color.CYAN);
+		
+		GridLayout g = new GridLayout(4,3);
+		//creating grid layout; 4 x 3    
+		p.setLayout(g);
+		//setting layout of the buttons
+		f.setVisible(true);
+	}
+}

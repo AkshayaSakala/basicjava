@@ -1,0 +1,83 @@
+-Constructer Overloading
+	-a constructer is the same as a method except that the name is the
+class name and it doesn't have a return type
+	-so a cronstructer can be verloaded like a method
+
+-Why is a Constructer called a Constructer
+	-you can ONLY use this when creatig an object, no other times
+
+Method Defining vs. Method Calling
+
+-Defining a Method: you need..
+	-Name
+	-Inputs
+	-Outputs
+	-Instructions
+	Think of defining a method like making a notecard and putting it in your
+pocket
+
+-Calling a method
+	-when somebody is given and follows the instructions
+
+-Methods calling other Methods
+	-this can be used when an instruction has multiple steps
+
+PROGRAM
+    class Student{
+        String name;
+        
+        Student(String name){
+            this.name = name;
+        }
+
+        void readBook(String bookName){
+            checkOutFromLibrary(bookName);
+            readTheBook(bookName);
+            returnBookToLibrary(bookName);
+        }
+
+        void checkOutFromLibrary(String bookName){
+            System.out.println("Checking out book:" + bookName + " from library");
+        }
+
+        void readTheBook(String bookName){
+            System.out.println("Read the book out book:" + bookName + " now");   
+        }
+
+        void returnBookToLibrary(String bookName){
+            System.out.println("Returning the book:" + bookName + " back to library");
+        }
+    }
+
+    class Application{
+        public static void main(String[] args){
+            Student s1 = new Student("Joe");
+            s1.readBook("Harry Potter");
+        }
+    }
+
+-Notes on Program
+	-in the readBook class the methods are being called so that you just use 
+the name of the method and the parameter(above it is bookName)
+
+Encapsulation
+-Step 1
+	-Packaging related details
+
+-Step 2
+	instead of defining each method, you can just ask them to do something 
+and let them figure out how to do it
+	-to do this you can use the private keyword
+
+PROGRAM
+        private void checkOutFromLibrary(String bookName){
+            System.out.println("Checking out book:" + bookName + " from library");
+        }
+
+        private void readTheBook(String bookName){
+            System.out.println("Read the book out book:" + bookName + " now");   
+        }
+
+        private void returnBookToLibrary(String bookName){
+            System.out.println("Returning the book:" + bookName + " back to library");
+        }
