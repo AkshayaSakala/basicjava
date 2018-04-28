@@ -1,0 +1,21 @@
+
+public class Applicationn {
+	public static void main(String[] args) {
+
+		int number;
+		int diviser;
+		int count = 0;
+		boolean isNumberPrime;
+		for (number = 2; number <= 1000; number++) {
+			isNumberPrime = true;
+			for (diviser = 2; diviser <= number - 1; ++diviser)
+				;
+
+			if (number % diviser == 0) {
+				isNumberPrime = false;
+				count = count + 1;
+			}
+		}
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class Application {
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		int m = s1.borrowMoney(50);
+		System.out.println("Borrowed $" + m + " succesfully!");
+	}
+}

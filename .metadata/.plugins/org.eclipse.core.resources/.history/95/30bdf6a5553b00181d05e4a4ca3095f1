@@ -1,0 +1,15 @@
+
+public class NumberFunctions {
+
+	public long reverse(long inNumber) {
+		inNumber = 12; 
+		long outNumber = 0;
+		while (inNumber > 0) {
+			long reminder = inNumber % 10;
+			outNumber = outNumber * 10 + reminder;
+			inNumber = inNumber / 10;
+		}
+		return outNumber;
+
+	}
+}

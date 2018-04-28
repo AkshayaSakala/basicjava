@@ -1,0 +1,15 @@
+
+public class Application {
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		System.out.println("Borrowing money..");
+		try {
+			s1.borrowMoney(1);
+			System.out.println("Borrowed succesfully!");
+		} catch (Exception e) {
+			e.printStackTrace();
+		    System.out.println("Could not borrow money.");
+		}
+
+	}
+}

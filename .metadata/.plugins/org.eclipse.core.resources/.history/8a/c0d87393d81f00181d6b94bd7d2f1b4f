@@ -1,0 +1,7 @@
+
+public class Student {
+
+	int borrowMoney(int amount){
+	return amount;
+	}
+}

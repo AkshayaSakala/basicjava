@@ -1,0 +1,31 @@
+
+public class Applicationn {
+	public static void main(String[] args) {
+
+		int number;
+		int diviser;
+		int count = 0;
+		long startTime = System.currentTimeMillis();
+		boolean isNumberPrime;
+		for (number = 2; count <= 1000; number++) {
+			isNumberPrime = true;
+			for (diviser = 2; diviser <= Math.sqrt(number) - 1; ++diviser) {
+
+				if (number % diviser == 0) {
+					isNumberPrime = false;
+					break;
+				}
+			}
+
+			if (isNumberPrime) {
+				count = count + 1;
+				System.out.println(number + " is prime");
+			}
+
+		}
+		long endTime = System.currentTimeMillis();
+		System.out.println(count + " numbers are prime");
+
+		System.out.println(endTime - startTime + " milliseconds");
+	}
+}

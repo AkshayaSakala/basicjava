@@ -1,0 +1,13 @@
+
+public class Student {
+
+	void borrowMoney(int amount) throws Exception{
+		
+	
+	
+	if(amount <= 0){
+		Exception invalidInput = new Exception();
+		throw invalidInput;
+	}	
+	}
+}

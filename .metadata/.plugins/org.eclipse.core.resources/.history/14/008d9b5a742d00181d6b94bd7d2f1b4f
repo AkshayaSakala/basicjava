@@ -1,0 +1,23 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		int count = 0;
+		for (int number = 2; number <= 1000; number++) {
+			boolean numberPrime = true;
+			for (int diviser = 2; diviser < number - 1; ++diviser) {
+				if (number % diviser == 0) {
+					numberPrime = false;
+					break;
+				}
+			}
+
+			if (numberPrime)
+				count = count + 1;
+			System.out.println("The number " + number + " is prime!");
+		}
+		System.out.println("Number of prime numbers found is " + count);
+	}
+
+
+}

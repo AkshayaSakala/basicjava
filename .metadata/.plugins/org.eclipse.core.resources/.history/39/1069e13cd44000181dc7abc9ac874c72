@@ -1,0 +1,20 @@
+
+public class ApplicationWithString {
+	
+	public static void main(String[] args) {
+		int num;
+		int count = 0;
+		int x = 10000;
+		for (num = 0; count < x; num++) {
+			String numAsString = Long.toString(num);
+			StringFunctions rev = new StringFunctions();
+			String reverseNum = rev.reverse(numAsString);			
+			long revNumber = Long.valueOf(numAsString);
+			if(revNumber == num){
+				count = count + 1;
+			System.out.println(reverseNum);
+			}
+		}
+		System.out.println("There are "+count+ " palandromes in " + x +" numbers" );
+	}
+}

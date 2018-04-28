@@ -1,0 +1,15 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num;
+		for (num = 10; num <= 100000; num++) {
+			NumberFunctions rev = new NumberFunctions();
+			rev.reverse(num);
+			
+		}
+		if(num == num);
+		
+	}
+}

@@ -1,0 +1,26 @@
+
+public class StringFunctions {
+
+	public String reverse(String inString) {
+		char[] letters = inString.toCharArray();
+		int lastIndex = letters.length - 1;
+		for (int position = 0; position <= lastIndex / 2; position++) {
+			char temp = letters[lastIndex - position];
+			letters[position] = temp;
+
+		}
+		return new String(letters);
+	}
+
+	public String variationReverse(String inString) {
+		char[] letters = inString.toCharArray();
+		int reversePointer = letters.length - 1;
+		for (int forwardPointer = 0; forwardPointer < reversePointer; forwardPointer++, reversePointer++) {
+			char temporary = letters[reversePointer];
+			letters[reversePointer] = letters[forwardPointer];
+			letters[forwardPointer] = temporary;
+
+		}
+		return new String(letters);
+	}
+}

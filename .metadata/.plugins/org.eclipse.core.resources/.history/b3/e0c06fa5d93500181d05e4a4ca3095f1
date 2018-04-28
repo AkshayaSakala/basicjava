@@ -1,0 +1,32 @@
+
+public class ApplicationUsingArray {
+	public static void main(String[] args) {
+
+		int[] primes = new int[1000000];
+		int number;
+		int diviser;
+		int count = 0;
+		long startTime = System.currentTimeMillis();
+		boolean isNumberPrime;
+		for (number = 2; count < 1000000; number++) {
+			isNumberPrime = true;
+			for (int primeIndex = 0; primes[primeIndex] < Math.sqrt(number); ++primeIndex) {
+
+				if (number % primes[primeIndex] == 0) {
+					isNumberPrime = false;
+					break;
+				}
+			}
+
+			if (isNumberPrime) {
+				count = count + 1;
+				System.out.println(number + " is prime");
+				primes[count - 1] = number;
+			}
+
+		}
+		long endTime = System.currentTimeMillis();
+		System.out.println(count + " numbers are prime");
+		System.out.println(endTime - startTime + " milliseconds");
+	}
+}

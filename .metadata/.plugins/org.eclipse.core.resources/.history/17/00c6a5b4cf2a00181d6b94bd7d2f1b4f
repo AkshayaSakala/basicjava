@@ -1,0 +1,11 @@
+
+public class Application {
+	public static void main(String[] args) {
+		String[] car;
+		car = new String[1000000];
+		for (int x = 0; x <= 1000000; x = x + 1) {
+			car[x] = "car";
+		}
+
+	}
+}

@@ -1,0 +1,10 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+
+		for (int number = 2; number <= 1000; number = number + 1) {
+			for(int diviser = number - 1; diviser < number;number = diviser % number);
+		}
+	}
+}

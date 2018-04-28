@@ -8,8 +8,12 @@ public class ResultPanel extends JPanel {
 	ResultPanel(){
 	
 		t = new JTextField();
-		t.setText("                    ");
+		t.setText("                   ");
 		add(t);
+	}
+	
+	void setNumber(String number){
+		String existing = textField.getText();
 	}
 	public void showText(String number){
 		t.setText(number);

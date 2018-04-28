@@ -32,10 +32,7 @@ public class OperationPanel extends JPanel {
 		b5.setBackground(Color.white);
 		b5.setText("=");
 		super.add(b5);
-		
-		Font font = new Font("Arial",Font.BOLD, 67);
-		b.setFont(font);
-		
+				
 		GridLayout l = new GridLayout(5,3);
 		setLayout(l);
 	}
